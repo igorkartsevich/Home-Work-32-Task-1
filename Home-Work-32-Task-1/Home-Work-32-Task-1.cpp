@@ -7,14 +7,14 @@ struct Film
 {
 	std::string name;
 	std::string country;
-	int year;
+	int year = 0;
 	std::string producer;
 	std::string director;
 	std::string writer;
 	std::string maleStar;
 	std::string femaleStar;
-	int duration_min;
-	int boxOffice_world;
+	int duration_min = 0;
+	int boxOffice_world = 0;
 };
 
 int main()
